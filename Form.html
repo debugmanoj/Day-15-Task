@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <Center><h1 id="title">Dom Manipulation in form</h1></Center>
+    <center><p id="description">This is the task for DOM manipulation</p></center>
+    <div class="packed">
+      <div class="form">
+        <form id="form"  onsubmit="added(event)">
+          <label >Fname </label>
+          <input  id="first-name" type="text" required />
+          <label> Lname </label>
+          <input id="last-name" type="text" required />
+          <label> Address </label>
+          <input id="address" type="text" required/>
+          <label> Pincode </label>
+          <input id="pincode" type="number" required/>
+          <label> Gender </label>
+          <select id="gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+          <label> Food </label>
+          <select  id="food" required>
+            <option value="Biriyani">Biriyani</option>
+            <option value="Kuska">kuska</option>
+            <option value="Chicken pakoda">Chicken pakoda</option>
+          </select>
+          <label>  State </label>
+          <input id="state" type="text" required />
+          <label> Country </label>
+          <input id="country" type="Text"  required/>
+          <input type="submit" id="submit" value="submit">
+        </form>
+      </div>
+      <div class="table">
+          <table>
+            <thead>
+              <tr>
+                <th>Fname</th>
+            <th>Lname</th>
+            <th>address</th>
+            <th>pincode</th>
+            <th>Gender</th>
+            <th>Food</th>
+            <th>State</th>
+            <th>Country</th>
+              </tr>
+  
+            </thead>
+            <tbody id="entries">
+              
+  <!-- Adding the dynamic tr tag -->
+            </tbody>
+  
+            
+            
+          </table>
+      
+      </div>
+
+    </div>
+    
+    
+    <script src="form.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+  </body>
+</html>

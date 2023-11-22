@@ -1,0 +1,26 @@
+#heading{
+    display: flex;
+    justify-content: center;
+}
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cal-container{
+    display: grid;
+    grid-template-rows: repeat(6,20px);
+    grid-template-columns: repeat(4,80px);
+
+}
+.Display{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: red;
+}
+.cal-container >div{
+    font-size: 100%;
+    
+    
+}

@@ -1,0 +1,12 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    
+}
+
+.split{
+    display: flex;
+    justify-content:space-between;
+}
